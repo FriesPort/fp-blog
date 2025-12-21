@@ -94,7 +94,7 @@ sudo apt install hugo
 
 blowfish支持两种安装方法，因为不太熟悉go语言，所以暂时先添加为git子模块，后面熟悉了再换。在项目根目录允许下面的命令添加子模块。
 
-```
+```bash
 git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
 ```
 

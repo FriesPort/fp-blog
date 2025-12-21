@@ -5,7 +5,7 @@ weight = 1
 title = "真理工坊"
 
 [params]
-  displayName = "EN"
+  displayName = "简体中文"
   isoCode = "zh-CN"
   rtl = false
   dateFormat = "2 January 2006"
@@ -19,7 +19,7 @@ title = "真理工坊"
   email = "teacup418@fp.ac.cn"
   image = "img/avata.png"
   imageQuality = 96
-  headline = "I'm only human"
+  headline = "游戏人间的好奇宝宝"
   bio = "A little bit about you"
   links = [
     { email = "mailto:teacup418@fp.ac.cn" },
