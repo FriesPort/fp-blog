@@ -24,14 +24,14 @@ disableImageOptimizationMD = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-defaultBackgroundImage = "img/Earth.jpg" # used as default for background images
+defaultBackgroundImage = "img/earth.jpg" # used as default for background images
 # defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
 # defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
 hotlinkFeatureImage = false
-# imagePosition = "50% 50%"
+imagePosition = "50% 50%"
 
 # highlightCurrentMenuArea = true
-# smartTOC = true
+smartTOC = true
 # smartTOCHideUnfocusedChildren = true
 
 fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384", "sha256"
@@ -52,14 +52,14 @@ forgejoDefaultServer = "https://git.fp.ac.cn"
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/Earth.jpg" # used in: hero, and card
+  homepageImage = "img/earth.jpg" # used in: hero, and card
   showRecent = true
   showRecentItems = 6
   showMoreLink = true
   showMoreLinkDest = "/posts/"
   cardView = true
   cardViewScreenWidth = false
-  layoutBackgroundBlur = true # only used when layout equals background
+  layoutBackgroundBlur = false # only used when layout equals background
   disableHeroImageFilter = true # only used when layout equals hero
 
 [article]
@@ -76,8 +76,8 @@ forgejoDefaultServer = "https://git.fp.ac.cn"
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = true
   showDraftLabel = true
-  showEdit = false
-  # editURL = "https://github.com/username/repo/"
+  # showEdit = true
+  editURL = "https://github.com/friesport/fp-blog/"
   editAppendPath = true
   seriesOpened = false
   showHeadingAnchors = true
