@@ -31,15 +31,10 @@ jobs:
           fetch-depth: 0
       - name: Initialize and update submodules
         run: |
-          git config --file .gitmodules --get-regexp path | while read path value; do
-            git submodule init "$value"
-            git submodule update --init --recursive "$value"
-            cd "$value"
-            git fetch origin
-            git checkout main || git checkout master
-            git pull origin main || git pull origin master
-            cd ..
-          done
+          # Initialize and update all submodules
+          git submodule update --init --recursive --remote
+          # Ensure submodules are on the correct branch and up to date
+          git submodule foreach 'git fetch origin && (git checkout main || git checkout master) && (git pull origin main || git pull origin master)'
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
