@@ -29,16 +29,17 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-      - name: Initialize submodules
+      - name: Initialize and update submodules
         run: |
-          git submodule update --init --recursive
-          git submodule foreach git pull origin main
-      - name: Pull theme
-        run: |
-          cd themes/blowfish
-          git fetch origin
-          git checkout main
-          git pull origin main
+          git config --file .gitmodules --get-regexp path | while read path value; do
+            git submodule init "$value"
+            git submodule update --init --recursive "$value"
+            cd "$value"
+            git fetch origin
+            git checkout main || git checkout master
+            git pull origin main || git pull origin master
+            cd ..
+          done
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
