@@ -18,10 +18,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      DART_SASS_VERSION: 1.93.2
-      GO_VERSION: 1.25.3
-      HUGO_VERSION: 0.152.2
-      NODE_VERSION: 22.20.0
+      DART_SASS_VERSION: 1.97.1
+      GO_VERSION: 1.25.5
+      HUGO_VERSION: 0.153.1
+      NODE_VERSION: 24.12.0
       TZ: Europe/Oslo
     steps:
       - name: Checkout
@@ -29,12 +29,6 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-      - name: Initialize and update submodules
-        run: |
-          # Initialize and update all submodules
-          git submodule update --init --recursive --remote
-          # Ensure submodules are on the correct branch and up to date
-          git submodule foreach 'git fetch origin && (git checkout main || git checkout master) && (git pull origin main || git pull origin master)'
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
