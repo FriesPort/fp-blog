@@ -2,27 +2,27 @@ disabled = false
 languageCode = "zh-CN"
 languageName = "简体中文"
 weight = 1
-title = "赛博工坊"
+title = "真理工坊"
 
 [params]
   displayName = "EN"
   isoCode = "zh-CN"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/1F35F-color.svg"
+  # logo = "img/1F35F-color.svg"
   # secondaryLogo = "img/269B_color.png"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
   name = "茶杯不能煮咖啡"
-  email = "teacup418@outlook.com"
+  email = "teacup418@fp.ac.cn"
   image = "img/avata.png"
   imageQuality = 96
   headline = "I'm only human"
   bio = "A little bit about you"
   links = [
-    { email = "mailto:teacup418@outlook.com" },
+    { email = "mailto:teacup418@fp.ac.cn" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
