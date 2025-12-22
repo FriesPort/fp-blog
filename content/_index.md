@@ -1,10 +1,13 @@
 ---
 title: ""
 date: 2025-12-22T21:54:07+08:00
-draft: true
-description: ""
-showHero: false
+draft: false
+description: "本站的创立的目标。"
+showHero: true
 ---
 
-实践是检验真理的唯一标准
+## 实践是检验真理的唯一标准。
 
+实践是真理工坊的根本，也是本站创立的目标。
+
+将实践的经历总结为博客，为同志们接下来认识世界、改造世界提供参考与帮助。
