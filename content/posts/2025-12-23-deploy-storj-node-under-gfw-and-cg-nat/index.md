@@ -11,7 +11,7 @@ slug: "deploy-storj-node-under-gfw-and-cg-nat"
 
 ## 序言
 
-storj在中国是个非常冷门的项目，根据[storjnet.info](https://storjnet.info/)统计的信息，截至至写稿时(2025-12-24)中国大陆地区只有48个节点。
+storj在中国是个非常冷门的项目，根据[storjnet.info](https://storjnet.info/)统计的信息，截至至写稿时(2025-12-24)中国大陆地区只有48个节点，排名为第44。
 
 ![storj节点数量](storj_node_info_2025-12-24.png)
 
@@ -28,7 +28,7 @@ storj在中国是个非常冷门的项目，根据[storjnet.info](https://storjn
 - 出口流量(每TB): $2.00
 - 审核/修复(每TB): $2.00
 
-### 推荐
+### 推荐硬件要求
 
 - 每个存储节点进程使用一个处理器核心
 - 每个存储节点进程使用一块硬盘。不支持 SMR。连接硬盘时无需 RAID 控制器，或者将 RAID 控制器配置为直通/IT 模式。
@@ -39,7 +39,7 @@ storj在中国是个非常冷门的项目，根据[storjnet.info](https://storjn
 每月正常运行时间（在线和运营）达到 99.5%。
 
 
-### 最低
+### 最低硬件要求
 
 - 每个存储节点进程使用一个处理器核心
 - 每个存储节点进程使用一块硬盘。不支持 SMR。连接硬盘时无需 RAID 控制器，或者将 RAID 控制器配置为直通/IT 模式。
@@ -64,7 +64,7 @@ storj在中国是个非常冷门的项目，根据[storjnet.info](https://storjn
 
 - [frp](https://gofrp.org/zh-cn/docs/overview/): 可以自己在拥有公网IP的VPS上部署，也可以找服务商托管的frp服务。
 - [ngrok](https://ngrok.com/pricing): 老牌隧穿
-- Cloudflare Tunnel: 无法转发UDP，但仍然可以用。
+- Cloudflare Tunnel: 可以免费使用，没有具体的限速和限流标注，缺点是无法转发UDP，但根据论坛查到的信息，只有不到5%的流量和功能需要udq来启用quic，不影响客户使用tcp来租赁你的硬盘。如果你只是试一试的话仍然可以用。
 - [花生壳](https://hsk.oray.com/price#personal): 垃圾，不推荐，又贵又限速又限流量。
 - [zerotail](https://www.zerotier.com/pricing/)
 
