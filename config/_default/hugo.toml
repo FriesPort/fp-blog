@@ -72,3 +72,6 @@ enableEmoji = true
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[permalinks]
+  posts = "/posts/:slug/" # 强制使用 Front Matter 里的 slug

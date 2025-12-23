@@ -1,9 +1,10 @@
 ---
-title: "Hello, Hugo!"
+title: "你好，Hugo！"
 date: 2025-12-22T02:45:19+08:00
 draft: false
 description: ""
 showHero: false
+slug: "hello-hugo"
 ---
 
 启用一个hugo站点所花费的时间比我想象的要久，比wordpress麻烦多了。
