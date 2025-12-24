@@ -1,7 +1,7 @@
 ---
 title: "在 GFW 防火墙及 CG-NAT 环境下部署 Storj 节点"
 date: 2025-12-23T22:36:13+08:00
-draft: true
+draft: false
 description: ""
 showHero: false
 slug: "deploy-storj-node-under-gfw-and-cg-nat"
@@ -244,7 +244,7 @@ domain(debian.org)->proxy
 
 ## 后续提现等操作
 
-从欧易提现？欢迎用我的邀请码注册账号：`81522149`。非常感谢！
+打算从欧易提现？欢迎用我的邀请码注册账号：`81522149`。使用邀请码注册，我们双方都可以得到奖励。非常感谢！
 
 如果本文对你有帮助的话也欢迎给我一点打赏：`0x5deab148f542cab91574a6be1b641788703ed712`
 
