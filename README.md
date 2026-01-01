@@ -1,8 +1,9 @@
 ```bash
-git config --global http.proxy "socks5://127.0.0.1:7890"
+git config --global http.proxy "http://127.0.0.1:7890"
 git config --global --unset http.proxy
 git config --global user.email "mial"
 git config --global user.name "Vincent Zhong"
+git submodule update --remote --merge
 ```
 
 写storj文档，还有看看git子模块能不能拉取深度为1。
