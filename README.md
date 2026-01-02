@@ -4,6 +4,7 @@ git config --global --unset http.proxy
 git config --global user.email "mial"
 git config --global user.name "Vincent Zhong"
 git submodule update --remote --merge
+git submodule update --remote --merge --depth 1 themes/blowfish
 ```
 
 写storj文档，还有看看git子模块能不能拉取深度为1。
