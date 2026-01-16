@@ -39,7 +39,6 @@ Windows Server 2025 使用2k25
 数据中心版：6NMRW-2C8FM-D24W7-TQWMY-CWH2D
 
 ```cmd
-
-
-```
 ssh vincent@192.168.1.201 -A
+```
+
