@@ -27,11 +27,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
         with:
-          submodules: recursive
           fetch-depth: 0
-      - name: Initialize submodules
-        run: |
-          git submodule update --init --recursive
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
