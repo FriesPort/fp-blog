@@ -15,7 +15,7 @@ slug: "icp-filing"
 
 https://domain.miit.gov.cn/
 
-并非所有的域名都可以进行备案的，例如常见的`.io`、`.ai`、`.org`域名就无法备案。具体的可备案域名请查看工信部提供的[域名清单](https://domain.miit.gov.cn)。
+并非所有的域名都可以进行备案，例如常见的`.io`、`.ai`、`.org`域名无法备案。具体的可备案域名请查看工信部提供的[域名清单](https://domain.miit.gov.cn)。
 
 保活方案
 
