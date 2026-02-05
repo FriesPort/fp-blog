@@ -4,6 +4,8 @@ date: 2025-12-22T02:45:19+08:00
 draft: false
 description: ""
 showHero: false
+categories: [软件工程]
+tags: [hugo]
 slug: "hello-hugo"
 ---
 

@@ -4,6 +4,7 @@ date: 2025-12-23T22:51:54+08:00
 draft: false
 description: ""
 showHero: false
+categories: [软件工程]
 tags: 
   - docker
 slug: "migrate-docker-volume"

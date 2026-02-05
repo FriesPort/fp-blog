@@ -4,6 +4,7 @@ date: 2026-01-02T21:31:33+08:00
 draft: true
 description: ""
 showHero: false
+categories: [软件工程]
 slug: ""
 ---
 
