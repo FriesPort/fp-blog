@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "真理工坊"
 date: 2025-12-22T21:54:07+08:00
 draft: false
 description: "本站的创立的目标。"

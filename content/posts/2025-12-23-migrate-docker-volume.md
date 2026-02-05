@@ -4,6 +4,8 @@ date: 2025-12-23T22:51:54+08:00
 draft: false
 description: ""
 showHero: false
+tags: 
+  - docker
 slug: "migrate-docker-volume"
 ---
 
@@ -13,11 +15,11 @@ slug: "migrate-docker-volume"
 
 为了更有指向性的讲解，我们做出如下定义：
 
-- 需要被迁移的容器和卷为 `ctn_old`，`vol_old`。
-- 用于过渡操作的中间容器为`ctn_tmp`。
-- 新的容器和卷为`ctn_new`，`vol_new`。
-- 用于保存备份压缩包的路径为`backup_path`。
-- 卷内需要迁移的目标路径为`target_path`。
+- 旧的容器名和卷名： `ctn_old`，`vol_old`。
+- 用于过渡操作的过渡容器名：`ctn_tmp`。
+- 新的容器名和卷名：`ctn_new`，`vol_new`。
+- 迁移压缩包的保存路径：`backup_path`。
+- 卷内保存数据的目标路径：`target_path`。
 
 ## 流程
 
