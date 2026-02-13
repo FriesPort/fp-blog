@@ -4,6 +4,14 @@ date: 2025-12-23T22:36:13+08:00
 draft: false
 description: ""
 showHero: false
+series: [设置storj node]
+series_order: 1
+categories: []
+tags:
+  - storj
+  - 容器
+  - proxy
+  - Linux
 slug: "deploy-storj-node-under-gfw-and-cg-nat"
 ---
 
