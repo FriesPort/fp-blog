@@ -1,15 +1,15 @@
 ---
-title: "Windows Server"
+title: "PVE 安装 Windows Server系统"
 date: 2025-12-29T11:56:01+08:00
 draft: true
 description: ""
 showHero: false
+tags:
+  - PVE
 slug: ""
 ---
 
-
-
----
+<!-- TODO -->
 
 使用 proxmox 安装 Windows Server作为爬虫
 

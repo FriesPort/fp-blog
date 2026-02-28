@@ -4,6 +4,7 @@ date: 2026-01-16T12:44:57+08:00
 draft: false
 description: ""
 showHero: false
+categories: [哲学]
 slug: "why-take-notes"
 ---
 

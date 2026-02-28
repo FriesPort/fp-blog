@@ -6,7 +6,7 @@ description: ""
 showHero: false
 tags: 
   - 容器
-  - 解决方案
+  - 方案
 slug: "portainer"
 ---
 

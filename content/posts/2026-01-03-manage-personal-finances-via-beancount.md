@@ -4,6 +4,7 @@ date: 2026-01-03T00:28:48+08:00
 draft: true
 description: ""
 showHero: false
+
 slug: "manage-personal-finances-via-beancount"
 ---
 
