@@ -16,9 +16,9 @@ slug: "migrate-docker-volume"
 
 为了更有指向性的讲解，我们做出如下定义：
 
-- 旧的容器名和卷名： `ctn_old`，`vol_old`。
-- 用于过渡操作的过渡容器名：`ctn_tmp`。
-- 新的容器名和卷名：`ctn_new`，`vol_new`。
+- 旧的容器名和卷名： `old_container`，`old_volume`。
+- 用于过渡操作的过渡容器名：`temp_container`。
+- 新的容器名和卷名：`new_container`，`new_volume`。
 - 迁移压缩包的保存路径：`backup_path`。
 - 卷内保存数据的目标路径：`target_path`。
 
@@ -26,7 +26,7 @@ slug: "migrate-docker-volume"
 
 总体思想：
 - 备份
-    1. 在另一个有终端的过渡容器`ctn_tmp`内同时挂载需要备份的卷`vol_old`和本地备份文件夹`backup_path`。
+    1. 在另一个有终端的过渡容器`temp_container`内同时挂载需要备份的卷`old_volume`和本地备份文件夹`backup_path`。
     2. 将卷的内容打包压缩后放到本地文件夹。
     3. 删除过渡容器。
 - 恢复
@@ -43,11 +43,13 @@ slug: "migrate-docker-volume"
 
 模板如下：
 
+tar命令的相关用法见[归档](2026-04-29-archive.md#tar-案例)
+
 压缩指定目录并保存到备份目录。
 
 ```bash
 docker run --rm \
-    -v <vol_old>:<target_path> \
+    -v <old_volume>:<target_path> \
     -v <backup_path>:/backup \
     ubuntu \
     tar cvf /backup/backup.tar <target_path>
@@ -73,7 +75,7 @@ docker run --rm \
 
 ```bash
 docker run --rm \
-    -v <vol_new>:<target_path> \
+    -v <new_volume>:<target_path> \
     -v <backup_path>:/backup \
     ubuntu \
     bash -c "tar xvf /backup/backup.tar"
