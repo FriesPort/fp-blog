@@ -6,7 +6,7 @@ description: ""
 showHero: false
 series: []
 series_order: 0
-categories: []
+categories: [哲学]
 tags:
   - 
 slug: "privacy-protection"
