@@ -3,9 +3,13 @@ title: "PVE 安装 Windows Server系统"
 date: 2025-12-29T11:56:01+08:00
 draft: true
 description: ""
-showHero: false
+showHero: true
+series: []
+series_order: 0
+categories: [软件工程]
 tags:
   - PVE
+  - Windows
 slug: ""
 ---
 

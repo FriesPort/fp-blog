@@ -6,7 +6,7 @@ description: ""
 showHero: false
 series: [设置storj node]
 series_order: 1
-categories: []
+categories: [软件工程]
 tags:
   - storj
   - 容器
