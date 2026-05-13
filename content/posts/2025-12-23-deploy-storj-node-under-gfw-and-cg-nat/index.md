@@ -8,7 +8,7 @@ series: [设置storj node]
 series_order: 1
 categories: [软件工程]
 tags:
-  - storj
+  - Storj
   - 容器
   - proxy
   - Linux

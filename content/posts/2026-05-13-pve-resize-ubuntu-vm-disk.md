@@ -1,7 +1,7 @@
 ---
 title: "如何在 PVE 中调整 Ubuntu 虚拟机的硬盘大小"
 date: 2026-05-13T10:30:59+08:00
-draft: true
+draft: false
 description: ""
 showHero: true
 series: []

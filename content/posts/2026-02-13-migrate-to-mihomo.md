@@ -9,6 +9,7 @@ series_order: 2
 categories: []
 tags:
   - storj
+  - proxy
 slug: "migrate-to-mihomo"
 ---
 
