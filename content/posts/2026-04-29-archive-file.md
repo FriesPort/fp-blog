@@ -1,5 +1,5 @@
 ---
-title: "归档"
+title: "归档文件命令笔记"
 date: 2026-04-29T17:55:05+08:00
 draft: false
 description: ""
@@ -9,7 +9,7 @@ series_order: 0
 categories: []
 tags:
   - 
-slug: "archive"
+slug: "archive-file"
 ---
 ## tar 命令
 
