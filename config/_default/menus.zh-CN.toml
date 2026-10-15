@@ -81,3 +81,11 @@
   name = "关于"
   pageRef = "about"
   weight = 40
+
+
+#[[footer]]
+#  name = "粤ICP备20267273号"
+#  url = "https://icp.gov.moe/?keyword=20267273"
+#  target = "_blank"
+#  rel = "noopener"
+#  weight = 100

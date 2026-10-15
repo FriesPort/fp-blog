@@ -13,6 +13,7 @@ title = "薯条港"
   secondaryLogo = "img/269B_color.png"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
+  copyright = "© { year } 茶杯不能煮咖啡 · [粤ICP备2025480030号-1](https://beian.miit.gov.cn/) · [萌ICP备20267273号](https://icp.gov.moe/?keyword=20267273)"
 
 [params.author]
   name = "茶杯不能煮咖啡"
@@ -36,7 +37,7 @@ title = "薯条港"
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
     { github = "https://github.com/teacup418" },
-    { forgejo = "https://git.fp.ac.cn/teacup418" },
+#     { forgejo = "https://git.fp.ac.cn/teacup418" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
 #     { instagram = "https://instagram.com/username" },
